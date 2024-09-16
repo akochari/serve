@@ -174,8 +174,8 @@ if TESTING:
             "OPTIONS": {
                 "pool": {
                     "min_size": 2,
-                    "max_size": 4,
-                    "timeout": 10,
+                    "max_size": 15,
+                    "timeout": 30,
                 }
             },
             "NAME": "postgres",
@@ -192,8 +192,8 @@ else:
             "OPTIONS": {
                 "pool": {
                     "min_size": 2,
-                    "max_size": 4,
-                    "timeout": 10,
+                    "max_size": 15,
+                    "timeout": 30,
                 }
             },
             "NAME": "postgres",
